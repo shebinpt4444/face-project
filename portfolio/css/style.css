@@ -1,0 +1,177 @@
+body{
+    margin:0px;
+    background-color: black;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+overflow:scroll;
+}
+#nav
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    background-color: #EDEEF0;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+#item-name
+{
+
+    flex:1;
+    padding-left:2em;
+    padding-top:0.75em;
+    color: #F05136;
+}
+#nav-items
+{
+    flex:1;
+}
+#nav-links
+{
+    list-style-type: none;
+    margin:0px 0px 0px 0px;
+}
+
+#nav-links li
+{
+    display:inline-block;
+    padding: 0.3em 1em;
+    margin-right: 1em;
+    min-width: 3.3em;
+    margin:0.5em 0.3em 0.5em 0.3em;
+    transition: background-color 0.4s;
+    border-radius: 3px;
+}
+#nav-links li:hover
+{
+ background-color:#F05136 ;
+}
+#nav-links li a
+{
+    text-decoration: none;
+    color: black;  
+}
+#content
+{
+    background-color: black;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.1em;
+    padding-left:30%;
+}
+#para2
+{
+    font-size: 1.3em;
+    margin-top:0px;
+}
+#profile
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:3em 4em 3em ;
+    background-color: #EDEEF0;
+}
+#picture
+{
+    border-radius: 45%;
+}
+#details
+{
+   padding-left:6em; 
+   flex:2;
+   height:auto;
+}
+#name
+{
+    font-size: 1.6em;
+}
+button
+{
+    border-radius: 4px;
+    background-color:#F05136 ;
+    color: white;
+    border: none;
+    padding :0.6em 2em;
+}
+#content1
+{
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+hr
+{
+    width:25%;
+}
+#boxes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 2em;
+}
+#sub-box
+{
+    background-color: white;
+    color: black;
+    width: 28%;
+    padding-top:1.1em ;
+}
+#round
+{
+    background-color:#F05136 ;
+    color: white;
+    border-radius: 50%;
+    padding:7px 5px;
+    margin:0px 0px;
+    width:36px;
+    height:30px;
+    display:inline-block;
+    
+}
+#round h3{
+    margin: 0px 0px;
+}
+#contact
+{
+    width:100%;
+    text-align: center;
+}
+input{
+    display:block;
+    margin:15px 1px 15px 1px;
+    height:30px;
+    width:30em;
+    
+}
+#sub
+{
+    display: inline-block;
+}
+#stati
+{
+    text-align: center;
+    padding:3em 0em 3em ;
+    background-color: #EDEEF0;
+    display: inline-block;
+    width: 100%;
+}
+#data
+{
+    padding-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+#value
+{
+    margin:5px 0px;
+}
